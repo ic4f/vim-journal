@@ -4,7 +4,7 @@
 " File:         syntax/journal.vim
 " Source:       https://github.com/sgolitsynskiy/vim-journal
 " License:      MIT
-" Last Updated: 2017 Aug 19 11:11:37 PM CDT
+" Last Updated: 2017 Aug 23 01:16:39 AM CDT
 " ----------------------------------------------------------------------
 
 if version < 600
