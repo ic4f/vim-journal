@@ -4,7 +4,7 @@
 " File:         ftplugin/journal.vim
 " Source:       https://github.com/sgolitsynskiy/vim-journal
 " License:      MIT
-" Last Updated: 2017 Aug 24 11:15:58 PM CDT
+" Last Updated: 2017 Aug 26 02:11:37 PM CDT
 " ----------------------------------------------------------------------
 
 
