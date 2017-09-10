@@ -30,5 +30,5 @@ git clone https://github.com/sgolitsynskiy/vim-journal.git
 ...add content
 Suggestions and feedback are [welcome](https://github.com/sgolitsynskiy/vim-journal/issues). 
 
-## Licence
+## License
 [MIT](https://github.com/sgolitsynskiy/vim-journal/blob/master/LICENSE)
