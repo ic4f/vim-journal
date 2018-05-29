@@ -4,7 +4,7 @@
 " File:         ftplugin/journal.vim
 " Source:       https://github.com/sgolitsynskiy/vim-journal
 " License:      MIT
-" Last Updated: 2017 Aug 26 02:11:37 PM CDT
+" Last Updated: 2018 May 29 12:46:57 PM EDT
 " ----------------------------------------------------------------------
 
 
@@ -52,8 +52,10 @@ let g:journal_terms = []
 "===============================================================================
 augroup journal_start
     autocmd!
-    "go to end of file; move last line to center of screen and scroll
-    autocmd BufEnter <buffer> normal! Gz.
+    "go to end of file; move last line to center of screen and scroll, but
+    "only when the buffer loads initially. Do not jump when moving between
+    "open buffers.
+    autocmd BufWinEnter <buffer> normal! Gz.
 augroup END
 
 
