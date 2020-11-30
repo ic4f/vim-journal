@@ -50,12 +50,13 @@ let g:journal_terms = []
 "===============================================================================
 " autocommands
 "===============================================================================
-augroup journal_start
-    autocmd!
-    "go to end of file; move last line to center of screen and scroll, but
-    "only when the buffer loads initially. Do not jump when moving between
-    "open buffers.
-    autocmd BufWinEnter <buffer> normal! Gz.
-augroup END
+" TODO: this is annoying when used for all files. Rework.
+" augroup journal_start
+"     autocmd!
+"     "go to end of file; move last line to center of screen and scroll, but
+"     "only when the buffer loads initially. Do not jump when moving between
+"     "open buffers.
+"     autocmd BufWinEnter <buffer> normal! Gz.
+" augroup END
 
 
